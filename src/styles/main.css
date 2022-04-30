@@ -2,22 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
+  /*
   --color-primary: #ec4755;
   --color-secondary: #a12c34;
   --color-tertiaty: #99a0a3;
+  */
+  --color-primary: #0360ae;
+  --color-secondary: #01184f;
+  --color-tertiaty: #c8dee5;
 }
 
-a { 
-  @apply text-red-700;
+a {
 }
 
 a:hover {
-  @apply border-b-2 border-red-700;
+  color: #fff;
+  border-bottom: 1px solid var(--color-primary);
 }
 
-
+.hero-cta:hover {
+  color: #fff !important;
+}
 
 .content p {
   @apply my-6;
