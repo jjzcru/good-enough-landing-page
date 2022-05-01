@@ -62,7 +62,7 @@ const Menu = () => {
                 href="https://good-enough.vercel.app"
                 className={`font-medium text-primary hover:text-secondary`}
               >
-                Call to action
+                Sign Up
               </a>
             </div>
           </nav>

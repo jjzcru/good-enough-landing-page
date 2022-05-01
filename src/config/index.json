@@ -1,146 +1,151 @@
 {
-  "company": {
-    "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
-  },
-  "navigation": [
-    {
-      "name": "Product",
-      "href": "product"
-    },
-    {
-      "name": "Features",
-      "href": "features"
-    },
+	"company": {
+		"name": "React landing page 2021",
+		"logo": "/assets/images/logo.png"
+	},
+	"navigation": [
+		{
+			"name": "Product",
+			"href": "product"
+		},
+		{
+			"name": "Features",
+			"href": "features"
+		},
 
-    {
-      "name": "Pricing",
-      "href": "pricing"
-    },
-    {
-      "name": "About",
-      "href": "about"
-    }
-  ],
-  "callToAction": {
-    "text": "Get started",
-    "href": "https://good-enough.vercel.app"
-  },
-  "mainHero": {
-    "title": "Good Enough",
-    "subtitle": "Track your expire items",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
-    "primaryAction": {
-      "text": "Get started",
-      "href": "https://good-enough.vercel.app"
-    },
-    "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
-    }
-  },
-  "product": {
-    "title": "React landing page 2021",
-    "items": [
-      {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
-      },
-      {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
-      }
-    ]
-  },
-  "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best web technologies!",
-    "description": "Using the latest web technology api you can run the application in your browser, in your phone or tablets.",
-    "items": [
-      {
-        "name": "Share your lists",
-        "description": "Share your list with your contacts",
-        "icon": "/assets/images/share.svg"
-      },
-      {
-        "name": "Get Insights",
-        "description": "Get Insights on how your money is spend.",
-        "icon": "/assets/images/insights.svg"
-      },
-      {
-        "name": "Get Alerts",
-        "description": "Get alerts when your items are about to expire.",
-        "icon": "/assets/images/urgent.svg"
-      },
-      {
-        "name": "Multiplatform",
-        "description": "Support for multiple screen size and can be installed as a native application.",
-        "icon": "/assets/images/multiplatform.svg"
-      }
-    ]
-  },
-  "pricing": {
-    "title": "Pricing",
-    "items": [
-      {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
-        "features": ["1 user", "Basic Support", "1,000 items", "Email support"]
-      },
-      {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
+		{
+			"name": "Pricing",
+			"href": "pricing"
+		},
+		{
+			"name": "About",
+			"href": "about"
+		}
+	],
+	"callToAction": {
+		"text": "Get started",
+		"href": "https://good-enough.vercel.app"
+	},
+	"mainHero": {
+		"title": "Good Enough",
+		"subtitle": "Track your expire items",
+		"description": "In the US between 30-40 percent of the food supply get to waste, big changes start with one single step, be that small change and avoid your food going to waste.",
+		"img": "/assets/images/happyTeam.jpeg",
+		"primaryAction": {
+			"text": "Get started",
+			"href": "https://good-enough.vercel.app"
+		},
+		"secondaryAction": {
+			"text": "Email us",
+			"href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+		}
+	},
+	"product": {
+		"title": "Help the world by helping yourself first",
+		"items": [
+			{
+				"title": "Help the world",
+				"description": "Add your products and avoid food wastage, instead of buying new food, remember which food do you have and use it instead of wasting it and if you don't want it? Donate it.",
+				"img": "/assets/images/product1.jpg"
+			},
+			{
+				"title": "Whenever, wherever",
+				"description": "Doesn't matter the place, doesn't matter the hour, just add your products and get reminded which items are about to expired.",
+				"img": "/assets/images/product2.jpg"
+			}
+		]
+	},
+	"features": {
+		"title": "Latest & greatest ",
+		"subtitle": "All the best web technologies!",
+		"description": "Using the latest web technology api you can run the application in your browser, in your phone or tablets.",
+		"items": [
+			{
+				"name": "Share your lists",
+				"description": "Share your list with your contacts",
+				"icon": "/assets/images/share.svg"
+			},
+			{
+				"name": "Get Insights",
+				"description": "Get Insights on how your money is spend.",
+				"icon": "/assets/images/insights.svg"
+			},
+			{
+				"name": "Get Alerts",
+				"description": "Get alerts when your items are about to expire.",
+				"icon": "/assets/images/urgent.svg"
+			},
+			{
+				"name": "Multiplatform",
+				"description": "Support for multiple screen size and can be installed as a native application.",
+				"icon": "/assets/images/multiplatform.svg"
+			}
+		]
+	},
+	"pricing": {
+		"title": "Pricing",
+		"items": [
+			{
+				"name": "Free",
+				"price": "$0",
+				"priceDetails": "for one user",
+				"features": [
+					"1 user",
+					"Basic Support",
+					"1,000 items",
+					"Email support"
+				]
+			},
+			{
+				"name": "Pro",
+				"price": "$15",
+				"priceDetails": "per user",
 
-        "features": [
-          "5 users",
-          "Priority Support",
-          "Unlimited items",
-          "Phone and Email support"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "Unlimited items",
-          "Phone and Email support"
-        ]
-      }
-    ]
-  },
-  "about": {
-    "sections": [
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      }
-    ],
-    "socialMedia": {
-      "github": "https://github.com/GoodEnoughApp/GoodEnoughApp"
-    }
-  }
+				"features": [
+					"5 users",
+					"Priority Support",
+					"Unlimited items",
+					"Phone and Email support"
+				]
+			},
+			{
+				"name": "Enterprise",
+				"price": "$29",
+				"priceDetails": "per user",
+				"features": [
+					"50 users",
+					"24/7 Support",
+					"Unlimited items",
+					"Phone and Email support"
+				]
+			}
+		]
+	},
+	"about": {
+		"sections": [
+			{
+				"name": "Something",
+				"href": "#",
+				"content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+			},
+			{
+				"name": "Something",
+				"href": "#",
+				"content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+			},
+			{
+				"name": "Something",
+				"href": "#",
+				"content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+			},
+			{
+				"name": "Something",
+				"href": "#",
+				"content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+			}
+		],
+		"socialMedia": {
+			"github": "https://github.com/GoodEnoughApp/GoodEnoughApp"
+		}
+	}
 }
