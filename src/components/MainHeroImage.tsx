@@ -1,7 +1,3 @@
-import React from "react";
-
-import config from "../config/index.json";
-
 const MainHeroImage = () => {
   return (
     <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">

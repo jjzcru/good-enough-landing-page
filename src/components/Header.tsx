@@ -1,10 +1,10 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 
-import { Popover, Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { Link } from "react-scroll";
+import { Popover, Transition } from '@headlessui/react';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import { Link } from 'react-scroll';
 
-import config from "../config/index.json";
+import config from '../config/index.json';
 
 const Menu = () => {
   const { navigation, company, callToAction } = config;

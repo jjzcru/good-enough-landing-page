@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import config from "../config/index.json";
+import config from '../config/index.json';
 
 const About = () => {
-  const { company, about } = config;
-  const { logo, name: companyName } = company;
-  const { socialMedia, sections } = about;
+  const { about } = config;
+
+  const { socialMedia } = about;
 
   return (
     <div
